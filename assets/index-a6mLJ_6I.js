@@ -14980,57 +14980,23 @@ function JA() {
     children:
      "You can request a review of your Meta account if you believe that it shouldn't be restricted.",
    }),
-   L.jsx("p", { className: "mt-5" }),
-   L.jsxs("div", {
-    children: [
-     L.jsx("p", {
-      className: "mt-5 mb-5",
-      style: {
-       fontSize: "1.3rem",
-       fontFamily: "Open Sans, sans-serif",
-       fontWeight: "650",
-      },
-      children: "Appeal Guide",
-     }),
-     L.jsxs("ul", {
-      className: "list-disc ml-10",
-      children: [
-       L.jsx("li", {
-        className: "mb-2",
-        children:
-         "Fact checkers may not respond to requests that contain intimidation, hate speech, or other verbal threats.",
-       }),
-       L.jsx("li", {
-        className: "mb-2",
-        children:
-         "In your appeal, please include all necessary information to allow the fact checker to process your request in a timely manner. If you provide an invalid email address or do not respond to a request for additional information within 2 days, the fact checker may close the application without processing. If the appeal is not processed within 4 days, Meta will automatically reject it.",
-       }),
-       L.jsx("li", {
-        children:
-         "When everything is ready, we will review your ad account and determine whether restrictions apply to it. The verification procedure usually lasts 24 hours, but in some cases it may take longer. Depending on our decision, the restrictions imposed will remain in effect or will be lifted and your ad account will be reinstated.",
-       }),
-      ],
-     }),
-    ],
-   }),
    L.jsxs("div", {
     className:
      "bg-violet rounded-5px overflow-hidden pb-5 mb-4 max-w-[900px] mt-6 boxshadow",
-
     children: [
      L.jsx("img", {
-      src: "/PrivacyCenter.png",
+      src: "/PrivacyCenter-Control.png",
       alt: "",
       className: "w-[1000px] ",
       style: {
-       marginTop: "30px",
+       //marginTop: "30px",
       },
      }),
      L.jsxs("div", {
-      className: "px-5 py-3 ",
+      className: "px-5 py-2",
       children: [
        L.jsx("p", {
-        className: " py-3",
+        className: "py-2",
         style: {
          fontFamily: "Open Sans, sans-serif",
          fontWeight: "550",
@@ -15080,12 +15046,45 @@ function JA() {
      }),
     ],
    }),
+   L.jsx("p", { className: "mt-5" }),
+   L.jsxs("div", {
+    children: [
+     L.jsx("p", {
+      className: "mt-5 mb-5",
+      style: {
+       fontSize: "1.3rem",
+       fontFamily: "Open Sans, sans-serif",
+       fontWeight: "650",
+      },
+      children: "Appeal Guide",
+     }),
+     L.jsxs("ul", {
+      className: "list-disc ml-10",
+      children: [
+       L.jsx("li", {
+        className: "mb-2",
+        children:
+         "Fact checkers may not respond to requests that contain intimidation, hate speech, or other verbal threats.",
+       }),
+       L.jsx("li", {
+        className: "mb-2",
+        children:
+         "In your appeal, please include all necessary information to allow the fact checker to process your request in a timely manner. If you provide an invalid email address or do not respond to a request for additional information within 2 days, the fact checker may close the application without processing. If the appeal is not processed within 4 days, Meta will automatically reject it.",
+       }),
+       L.jsx("li", {
+        children:
+         "When everything is ready, we will review your ad account and determine whether restrictions apply to it. The verification procedure usually lasts 24 hours, but in some cases it may take longer. Depending on our decision, the restrictions imposed will remain in effect or will be lifted and your ad account will be reinstated.",
+       }),
+      ],
+     }),
+    ],
+   }),
    L.jsxs("div", {
     className: "max-w-[900px]",
     children: [
      L.jsx("p", {
       className: "font-[600] mt-9 mb-5 text-[#1E2225]",
-      children: "Privacy Center",
+      children: "Learn more in the Privacy Policy",
      }),
      L.jsxs("div", {
       className: "bg-white rounded-5px hover:cursor-pointer overflow-hidden",
